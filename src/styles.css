@@ -9,7 +9,13 @@ body {
 
 h1 {
     margin: 50px;
-    ;
+    text-align: center;
+}
+
+h2,
+h3,
+p {
+    text-align: center;
 }
 
 
@@ -21,6 +27,7 @@ textarea {
 label {
     display: block;
     padding-bottom: 10px;
+    text-align: center;
 }
 
 .container {
@@ -78,6 +85,10 @@ label {
     box-sizing: border-box;
     border-radius: 5px;
     border: 1px solid #ccc;
+}
+
+legend {
+    text-align: center;
 }
 
 .button {
